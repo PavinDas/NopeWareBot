@@ -77,7 +77,7 @@ async def send_analysis_results(message, report, name, descp=None, size=None, ha
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
         "Welcome to NopeWare Scanner Bot!\n"
-        "I can scan:\n- Files: Send any file\n- Hashes: Send MD5, SHA1, or SHA256 hash\n- URLs: Send a URL\n\n"
+        "I can scan:\n📁- Files: Send any file\n🔒- Hashes: Send MD5, SHA1, or SHA256 hash\n🔗- URLs: Send a URL\n\n"
         "Developed by: @pavin_das\n"
         "GitHub: PavinDas\n"
         "Instagram: pavin__das"
